@@ -1,0 +1,237 @@
+:root {
+  --nero: #212121;
+  --white: #ffffff;
+  --blue: #2196f3;
+  --black: #000000;
+  --black-rock: #2f303a;
+  --whisper: #ececec;
+  --whisper2: #eeeeee;
+  --white-ghost: #f5f4fa;
+  --grey: #757575;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+/* Universal styling */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--grey);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Header styling */
+
+.header {
+  background-color: var(--white);
+}
+
+.header__navigation a,
+.header__logo a,
+.header__info a,
+.footer__logo a,
+.footer__address a {
+  text-decoration: none;
+}
+
+.header__logo a {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  color: var(--black);
+}
+
+.header__logo span,
+.footer__logo span {
+  color: var(--blue);
+}
+
+.header__navigation ul,
+.about ul,
+.portfolio__filters ul {
+  list-style: none;
+}
+
+.header__navigation a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  color: var(--nero);
+}
+
+.header__info a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  color: var(--grey);
+}
+
+.header__info a:hover,
+.header__navigation a:hover {
+  color: var(--blue);
+}
+
+/*Hero section styling */
+
+.hero-section {
+  background-color: var(--black-rock);
+}
+
+.hero-section__title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  color: var(--white);
+  font-family: Roboto;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.booking-button {
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 10px 19px;
+  border: var(--black) solid 15%;
+  border-radius: 4px;
+}
+
+/* About section styling */
+
+.about__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--nero);
+}
+
+.about__text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* What we do section styling */
+
+.what-we-do__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--nero);
+}
+
+/* Our team section styling */
+
+.team {
+  background-color: var(--white-ghost);
+}
+
+.team__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--nero);
+}
+
+.team__img {
+  background-color: var(--white);
+}
+
+.team__img p {
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team__img span {
+  font-weight: 500;
+  color: var(--nero);
+}
+
+/* Footer styling */
+
+.footer {
+  background-color: var(--black-rock);
+}
+
+.footer__logo a {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--white);
+}
+
+.footer__address a {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--white) 60%;
+  font-style: normal;
+}
+
+.footer__address a span {
+  line-height: 16.41px;
+  color: var(--white);
+}
+
+/* Portfolio filters styling */
+
+.portfolio__filters button {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--nero);
+  background-color: var(--white-ghost);
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: var(--white-ghost) solid;
+}
+
+.portfolio__filters button:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.portfolio__projects p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.portfolio__projects span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--nero);
+}
+
+.portfolio__projects div {
+  border: var(--white-ghost) solid;
+  border-radius: 1px;
+  border-width: 1px;
+}
