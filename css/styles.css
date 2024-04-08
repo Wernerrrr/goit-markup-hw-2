@@ -71,7 +71,12 @@ button {
 }
 
 .header__info a:hover,
-.header__navigation a:hover {
+.header__info a:focus,
+.header__navigation a:hover,
+.header__navigation a:focus,
+.footer__address a:hover,
+.footer__address a:focus,
+.footer__address span:hover {
   color: var(--blue);
 }
 
